@@ -6,6 +6,7 @@
   font-style: normal;
   font-weight: 900px;
   font-size: 34px;
+  color: #4E47FF;
 }
 
 
@@ -13,7 +14,7 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
-  font-style: normal;
+  font-style: normal;               
   
   
 }
@@ -62,6 +63,7 @@ nav ul{
     /* border: #4E47FF dotted; */
     margin: 309px 152px 276px;
     text-align: center;
+    padding-bottom: 20px;
    
 }
 
@@ -71,9 +73,46 @@ nav ul{
     gap: 10px;
     margin: 0px 400px;
     margin-bottom: 37px;
+    padding-bottom: 152px;
 }
 header{
     background-image: url(../Hero-bg.png);
     /* height: 698px;
     width: 1440px; */
+}
+
+.resize{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.content{
+    text-align: center;
+    display:flex;
+
+}
+.picture{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    margin-left: 737px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-align{
+    text-align: center;
+    margin-left: 141px;
+    text-align: 181px;
+    text-align: center;
+}
+.section{
+    margin-left: 181px;
+    display: flex;
 }
